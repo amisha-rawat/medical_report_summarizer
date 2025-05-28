@@ -1,0 +1,34 @@
+# Core dependencies
+transformers>=4.41.0
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio>=2.4.0
+sentencepiece>=0.2.0
+streamlit>=1.41.0
+pandas>=2.2.0
+numpy>=1.26.0
+nltk>=3.8.1
+spacy>=3.7.4
+pytesseract>=0.3.10
+Pillow>=10.2.0
+PyMuPDF>=1.24.0
+
+# HTTP client
+httpx>=0.27.0
+
+# For PDF text extraction
+pdf2image>=1.17.0
+
+# For NER and medical processing
+spacy-transformers>=1.3.0
+en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
+
+# Additional ML dependencies
+scikit-learn>=1.4.0
+scipy>=1.12.0
+matplotlib>=3.8.0
+
+# Development tools
+black>=24.4.0
+flake8>=7.0.0
+pytest>=8.0.0
